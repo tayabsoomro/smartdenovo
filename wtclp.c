@@ -889,7 +889,7 @@ void genome_estimation_wtclp(WTCLP *wt){
 	if((x % 10) != 9) fprintf(stderr, "\n");
 	free_u64list(lens);
 	avg ++; // roundup
-	fprintf(stderr, "Total aviable sequences: %llu bp\n", (unsigned long long)tot);
+	fprintf(stderr, "Total available sequences: %llu bp\n", (unsigned long long)tot);
 	fprintf(stderr, "Average Coverage(?):     %d\n", avg);
 	fprintf(stderr, "Genome Size(?):          %llu bp\n", (unsigned long long)(tot / avg));
 }
